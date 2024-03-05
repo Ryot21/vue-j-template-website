@@ -1,7 +1,12 @@
+
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">トップ</router-link> |
+    <router-link to="/concept">コンセプト</router-link>|
+    <router-link to="/layout">レイアウト</router-link>|
+    <router-link to="/plan">プラン</router-link>|
+    <router-link to="/euipment">設備・仕様</router-link>|
+    <router-link to="/location">周辺環境</router-link>
   </nav>
   <router-view/>
 </template>
