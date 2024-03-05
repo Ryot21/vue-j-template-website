@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
+<html lang="ja">
+  <head prefix="og: https://ogp.me/ns#">                                                          <!-- OGP使用を宣言 -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <!-- デプロイ前に確認・サンプル -->
+    <meta name="keywords" content="市町村,地名,新築戸建or建築条件付き土地,グランシア,住協">
+    <meta name="description" content="">
+    <link rel="canonical" href="https://www.jyu-g.co.jp/special/template_html/">
+    <meta name="format-detection" content="telephone=no" />
+    <!-- SNS関係 -->
+    <meta property="og:locale"       content="ja_JP"/>
+    <meta property="og:url"          content="https://www.jyu-g.co.jp/special/template_html/">
+    <meta property="og:type"         content="website">                                         <!-- Top：website、下層ページ：article -->
+    <meta property="og:site_name"    content="住協グループの住まい情報"/>                         <!-- ページが属する大元のサイト名 -->
+    <meta property="og:title"        content="物件名 ～タイプ～">                                <!-- SNS表示用のタイトル -->
+    <meta property="og:description"  content="">                                                <!-- 通常のdescriptionと同じ内容 -->
+    <meta property="og:image"        content="images/sns/sample-top.jpg">                       <!-- SNS表示用のサムネイル 1200px × 630px -->
+    <!-- //SNS関係 -->
+    <!--// デプロイ前に確認・サンプル -->
+    
   </head>
   <body>
     <noscript>
