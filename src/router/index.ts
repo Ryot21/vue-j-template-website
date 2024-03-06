@@ -1,5 +1,10 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ConceptView from '../views/ConceptView.vue'
+import LayoutView from '../views/LayoutView.vue'
+import PlanView from '../views/PlanView.vue'
+import EuipmentView from '../views/EuipmentView.vue'
+import LocationView from '../views/LocationView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -13,7 +18,7 @@ const routes: Array<RouteRecordRaw> = [
   },{
     path: '/concept',
     name: 'concept',
-    component: () => import('../views/ConceptView.vue'),
+    component: ConceptView,
     meta: {
       title: 'コンセプト | 住協グループの住まい情報',
       des: 'コンセプトページの説明が入ります。'
@@ -21,7 +26,7 @@ const routes: Array<RouteRecordRaw> = [
   },{
     path: '/layout',
     name: 'layout',
-    component: () => import('../views/LayoutView.vue'),
+    component: LayoutView,
     meta: {
       title: 'レイアウト | 住協グループの住まい情報',
       des: 'レイアウトページの説明が入ります。'
@@ -29,7 +34,7 @@ const routes: Array<RouteRecordRaw> = [
   },{
     path: '/plan',
     name: 'plan',
-    component: () => import('../views/PlanView.vue'),
+    component: PlanView,
     meta: {
       title: 'プラン | 住協の住まい情報',
       meta: 'プランページの説明文が入ります。'
@@ -37,7 +42,7 @@ const routes: Array<RouteRecordRaw> = [
   },{
     path: '/euipment',
     name: 'euipment',
-    component: () => import('../views/EuipmentView.vue'),
+    component: EuipmentView,
     meta: {
       title: '設備・仕様 | 住協グループの住まい情報',
       meta: '設備・仕様ページの説明文が入ります。'
@@ -45,7 +50,7 @@ const routes: Array<RouteRecordRaw> = [
   },{
     path: '/location',
     name: 'location',
-    component: () => import('../views/LocationView.vue'),
+    component: LocationView,
     meta: {
       title: '周辺環境 | 住協グループの住まい情報',
       meta: '周辺環境ページの説明文が入ります。'
