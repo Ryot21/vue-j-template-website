@@ -48,14 +48,14 @@
             <nav class="c-header__navArea">
                 <ul class="c-header__navLists -col8">
                     <li class="navItem">
-                        <router-link to="/" class="navItem__link -lh-1">
+                        <router-link to="/" :class="{ '-active' : $route.path === '/' }" class="navItem__link -lh-1">
                           <span class="navItem-title -main s-M -s-nav">トップ</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">TOP</span>
                         </router-link>
                     </li>
                     <li class="navItem">
-                        <router-link to="/concept" class="navItem__link -lh-1">
+                        <router-link to="/concept" :class="{ '-active' : $route.path === '/concept' }" class="navItem__link -lh-1">
                           <span class="navItem-title -main s-M -s-nav">コンセプト</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">CONCEPT</span>
@@ -69,21 +69,21 @@
                       </router-link>
                     </li>
                     <li class="navItem">
-                      <router-link to="/plan" class="navItem__link -lh-1">
+                      <router-link to="/plan" :class="{ '-active' : $route.path === '/plan' }" active-class="-active" class="navItem__link -lh-1">
                         <span class="navItem-title -main s-M -s-nav">プラン</span>
                           <br>
                         <span class="navItem-title -sub s-SS -s-nav">PLAN</span>
                       </router-link>
                     </li>
                     <li class="navItem">
-                      <router-link to="/euipment" class="navItem__link -lh-1">
+                      <router-link to="/euipment" :class="{ '-active' : $route.path === '/euipment' }" class="navItem__link -lh-1">
                         <span class="navItem-title -main s-M -s-nav">設備・仕様</span>
                           <br>
                         <span class="navItem-title -sub s-SS -s-nav">EQUIPMENT</span>
                       </router-link>
                     </li>
                     <li class="navItem">
-                      <router-link to="/location" class="navItem__link -lh-1">
+                      <router-link to="/location" :class="{ '-active' : $route.path === '/location' }" class="navItem__link -lh-1">
                         <span class="navItem-title -main s-M -s-nav">周辺環境</span>
                           <br>
                         <span class="navItem-title -sub s-SS -s-nav">LOCATION</span>

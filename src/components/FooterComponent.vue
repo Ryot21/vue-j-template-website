@@ -46,22 +46,22 @@
             <nav class="c-footer__navArea">
                 <ul class="c-footer__navLists -col7">
                     <li class="navItem_footer mgb2">
-                      <router-link to="/" class="-lh-1 -center"><span class="s-S -s-nav">トップ</span></router-link>
+                      <router-link to="/" :class="{ '-active' : $route.path === '/' }" class="-lh-1 -center"><span class="s-S -s-nav">トップ</span></router-link>
                     </li>
                     <li class="navItem_footer mgb2">
-                      <router-link to="/concept" class="-lh-1 -center"><span class="s-S -s-nav">コンセプト</span></router-link>
+                      <router-link to="/concept" :class="{ '-active' : $route.path === '/concept' }" class="-lh-1 -center"><span class="s-S -s-nav">コンセプト</span></router-link>
                     </li>
                     <li class="navItem_footer mgb2">
-                      <router-link to="/layout" class="-lh-1 -center"><span class="s-S -s-nav">区画・間取</span></router-link>
+                      <router-link to="/layout" :class="{ '-active' : $route.path === '/layout' }" class="-lh-1 -center"><span class="s-S -s-nav">区画・間取</span></router-link>
                     </li>
                     <li class="navItem_footer mgb2">
-                      <router-link to="/plan" class="-lh-1 -center"><span class="s-S -s-nav">プラン</span></router-link>
+                      <router-link to="/plan" :class="{ '-active' : $route.path === '/plan' }" class="-lh-1 -center"><span class="s-S -s-nav">プラン</span></router-link>
                     </li>
                     <li class="navItem_footer mgb2">
-                      <router-link to="/euipment" class="-lh-1 -center"><span class="s-S -s-nav">設備・仕様</span></router-link>
+                      <router-link to="/euipment" :class="{ '-active' : $route.path === '/euipment' }" class="-lh-1 -center"><span class="s-S -s-nav">設備・仕様</span></router-link>
                     </li>
                     <li class="navItem_footer mgb2">
-                      <router-link to="/location" class="-lh-1 -center"><span class="s-S -s-nav">周辺環境</span></router-link>
+                      <router-link to="/location" :class="{ '-active' : $route.path === '/location' }" class="-lh-1 -center"><span class="s-S -s-nav">周辺環境</span></router-link>
                     </li>
                     <li class="navItem_footer mgb2">
                         <a href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank" class="-lh-1 -center">
