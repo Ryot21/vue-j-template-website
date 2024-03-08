@@ -4,13 +4,14 @@
 <template>
   <!-- 固定アイテム / TOP -->
   <a href="#header" class="c-btn-top -center a-fadeUp -sp25">TOPへ</a>
-  <MenuComponent></MenuComponent><!-- ハンバーガーメニュー -->
-  <HeaderComponent></HeaderComponent><!-- Header -->
+  <MenuComponent/><!-- ハンバーガーメニュー -->
+  <HeaderComponent/><!-- Header -->
 
-
-
+  <!-- コンテンツ -->
+  <router-view/>
+  <!-- //コンテンツ -->
   
-  <FooterComponent></FooterComponent><!-- Footer -->
+  <FooterComponent/><!-- Footer -->
   <!-- <router-view/> -->
 </template>
 
