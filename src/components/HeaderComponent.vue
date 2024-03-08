@@ -62,14 +62,14 @@
                         </router-link>
                     </li>
                     <li class="navItem">
-                      <router-link to="/layout" class="navItem__link -lh-1">
+                      <router-link to="/layout" :class="{ '-active' : $route.path === '/layout' }" class="navItem__link -lh-1">
                         <span class="navItem-title -main s-M -s-nav">区画・間取</span>
                           <br>
                         <span class="navItem-title -sub s-SS -s-nav">LAYOUT</span>
                       </router-link>
                     </li>
                     <li class="navItem">
-                      <router-link to="/plan" :class="{ '-active' : $route.path === '/plan' }" active-class="-active" class="navItem__link -lh-1">
+                      <router-link to="/plan" :class="{ '-active' : $route.path === '/plan' }" class="navItem__link -lh-1">
                         <span class="navItem-title -main s-M -s-nav">プラン</span>
                           <br>
                         <span class="navItem-title -sub s-SS -s-nav">PLAN</span>
