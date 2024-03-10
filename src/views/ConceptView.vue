@@ -1,5 +1,5 @@
 <template>
   <div class="concept">
-    <h1>This is an about page</h1>
+    <FirstViewComponent02/>
   </div>
 </template>
