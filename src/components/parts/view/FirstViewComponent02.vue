@@ -11,7 +11,9 @@
             <img class="sp"    src="images/f-view/f-sample_sp.png" alt="">
             <img class="tb-pc" src="images/f-view/f-sample02_tbpc.png" alt="">
         </div>
-        <!-- SPのみ / ページタイトル -->
+        <!-- ページタイトル -->
+        <h1 class="sp c-contentsBox -f-title -f-title_r -layout -ws-n s-LL -f-mincho a-fade -sp3">{{ $route.meta.contentMainTitle }}</h1>
+        <!-- 注釈 -->
         <p class="-right a-fade -sp4"><span class="s-kome -color03">※イメージ</span></p>
     </div>
 </template>
