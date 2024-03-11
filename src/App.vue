@@ -16,5 +16,8 @@
 </template>
 
 <style>
-
+body {
+  overflow: scroll !important;
+  height: 100vw;
+}
 </style>
