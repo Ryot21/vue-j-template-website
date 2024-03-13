@@ -18,6 +18,6 @@
 <style>
 body {
   overflow: scroll !important;
-  height: 100vw;
+  height: 100vh;
 }
 </style>
