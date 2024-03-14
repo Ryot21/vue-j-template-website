@@ -1,4 +1,4 @@
-<!-- SwiperComponent.vue -->
+<!-- SwiperViewComponent.vue -->
 <template>
     <swiper class="swiper-Fview"
         :modules="modules"
@@ -66,12 +66,6 @@
     import { Swiper, SwiperSlide } from 'swiper/vue';// Import Swiper Vue.js components
     import { Navigation, Pagination, A11y, EffectFade, Autoplay } from 'swiper/modules';// import Swiper core and required modules
 
-    // Import Swiper styles
-    import 'swiper/css';
-    import 'swiper/css/navigation';
-    import 'swiper/css/pagination';
-    import 'swiper/css/autoplay';
-    import 'swiper/css/effect-fade';
     export default {
         components: {
             Swiper,

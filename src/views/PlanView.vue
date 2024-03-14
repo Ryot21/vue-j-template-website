@@ -72,29 +72,8 @@
         </div>
         <!-- ---------------- 【 > スライダー関係 】---------------- -->
         <div class="c-contents w95 mgb20 mgb20s">
-            <!-- <h2 class="c-contents_title -portfolio s-LL -center mgb10 mgb10s">施工例</h2> -->
-            <div class="swiper swiper-Build">
-                <ul class="swiper-wrapper">
-                    <li class="swiper-slide">
-                        <a href="images/slider/example/build-pic01.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 1/5"><img src="images/slider/example/build-pic01.png" alt="施工事例_1/5"/></a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="images/slider/example/build-pic02.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 2/5"><img src="images/slider/example/build-pic02.png" alt="施工事例_2/5"/></a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="images/slider/example/build-pic03.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 3/5"><img src="images/slider/example/build-pic03.png" alt="施工事例_3/5"/></a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="images/slider/example/build-pic04.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 4/5"><img src="images/slider/example/build-pic04.png" alt="施工事例_4/5"/></a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="images/slider/example/build-pic05.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 5/5"><img src="images/slider/example/build-pic05.png" alt="施工事例_5/5"/></a>
-                    </li>
-                </ul>
-                <div class="sp swiper-button-prev"></div>
-                <div class="sp swiper-button-next"></div>
-                <div class="swiper-pagination"></div>
-            </div>
+            <h2 class="c-contents_title -portfolio s-LL -center mgb10 mgb10s">施工例</h2>
+            <SwiperContentComponent/>
         </div>
         <!------------------ 内観【SP・PC1カラム】 --------------------->
         <div class="c-contents w95 mgb10 mgb10s">
@@ -150,18 +129,7 @@
         <!-- ---------------- 【 > スライダー関係 】 ---------------- -->
         <div class="c-contents w95 mgb20 mgb20s">
             <h2 class="c-contents_title -portfolio s-LL -center mgb10 mgb10s">施工例</h2>
-            <div class="swiper swiper-Build">
-                <ul class="swiper-wrapper">
-                    <li class="swiper-slide"><a href="images/slider/example/build-pic01.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 1/5"><img src="images/slider/example/build-pic01.png" alt="施工事例 1/5"/></a></li>
-                    <li class="swiper-slide"><a href="images/slider/example/build-pic02.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 2/5"><img src="images/slider/example/build-pic02.png" alt="施工事例 2/5"/></a></li>
-                    <li class="swiper-slide"><a href="images/slider/example/build-pic03.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 3/5"><img src="images/slider/example/build-pic03.png" alt="施工事例 3/5"/></a></li>
-                    <li class="swiper-slide"><a href="images/slider/example/build-pic04.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 4/5"><img src="images/slider/example/build-pic04.png" alt="施工事例 4/5"/></a></li>
-                    <li class="swiper-slide"><a href="images/slider/example/build-pic05.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 5/5"><img src="images/slider/example/build-pic05.png" alt="施工事例 5/5"/></a></li>
-                </ul>
-                <div class="sp swiper-button-prev"></div>
-                <div class="sp swiper-button-next"></div>
-                <div class="swiper-pagination"></div>
-            </div>
+            <SwiperContentComponent/>
         </div>
     </div>
   </div>

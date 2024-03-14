@@ -6,7 +6,8 @@ import FooterComponent    from './components/parts/FooterComponent.vue'
 import MenuComponent      from './components/parts/MenuComponent.vue'
 import FirstViewComponent01 from './components/parts/view/FirstViewComponent01.vue'
 import FirstViewComponent02 from './components/parts/view/FirstViewComponent02.vue'
-import SwiperComponent    from './components/introduction/SwiperComponent.vue'
+import SwiperViewComponent    from './components/introduction/SwiperViewComponent.vue'
+import SwiperContentComponent    from './components/introduction/SwiperContentComponent.vue'
 
 const app = createApp(App)
 
@@ -16,5 +17,6 @@ app.component('FooterComponent', FooterComponent)
 app.component('MenuComponent', MenuComponent)
 app.component('FirstViewComponent01', FirstViewComponent01)
 app.component('FirstViewComponent02', FirstViewComponent02)
-app.component('SwiperComponent', SwiperComponent)
+app.component('SwiperViewComponent', SwiperViewComponent)
+app.component('SwiperContentComponent', SwiperContentComponent)
 app.mount('#app')
