@@ -58,7 +58,7 @@
                       <router-link to="/plan" :class="{ '-active' : $route.path === '/plan' }" class="-lh-1 -center"><span class="s-S -s-nav">プラン</span></router-link>
                     </li>
                     <li class="navItem_footer mgb2">
-                      <router-link to="/euipment" :class="{ '-active' : $route.path === '/euipment' }" class="-lh-1 -center"><span class="s-S -s-nav">設備・仕様</span></router-link>
+                      <router-link to="/equipment" :class="{ '-active' : $route.path === '/equipment' }" class="-lh-1 -center"><span class="s-S -s-nav">設備・仕様</span></router-link>
                     </li>
                     <li class="navItem_footer mgb2">
                       <router-link to="/location" :class="{ '-active' : $route.path === '/location' }" class="-lh-1 -center"><span class="s-S -s-nav">周辺環境</span></router-link>

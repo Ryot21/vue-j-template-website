@@ -76,7 +76,7 @@
                       </router-link>
                     </li>
                     <li class="navItem">
-                      <router-link to="/euipment" :class="{ '-active' : $route.path === '/euipment' }" class="navItem__link -lh-1">
+                      <router-link to="/equipment" :class="{ '-active' : $route.path === '/equipment' }" class="navItem__link -lh-1">
                         <span class="navItem-title -main s-M -s-nav">設備・仕様</span>
                           <br>
                         <span class="navItem-title -sub s-SS -s-nav">EQUIPMENT</span>
