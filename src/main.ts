@@ -8,6 +8,7 @@ import FirstViewComponent01 from './components/parts/view/FirstViewComponent01.v
 import FirstViewComponent02 from './components/parts/view/FirstViewComponent02.vue'
 import SwiperViewComponent    from './components/introduction/SwiperViewComponent.vue'
 import SwiperContentComponent    from './components/introduction/SwiperContentComponent.vue'
+import TabComponent from './components/parts/TabComponent.vue'
 
 const app = createApp(App)
 
@@ -19,4 +20,5 @@ app.component('FirstViewComponent01', FirstViewComponent01)
 app.component('FirstViewComponent02', FirstViewComponent02)
 app.component('SwiperViewComponent', SwiperViewComponent)
 app.component('SwiperContentComponent', SwiperContentComponent)
+app.component('TabComponent', TabComponent)
 app.mount('#app')
