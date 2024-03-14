@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ConceptView from '../views/ConceptView.vue'
 import LayoutView from '../views/LayoutView.vue'
 import PlanView from '../views/PlanView.vue'
-import EuipmentView from '../views/EuipmentView.vue'
+import EquipmentView from '../views/EquipmentView.vue'
 import LocationView from '../views/LocationView.vue'
 
 const routes: Array<RouteRecordRaw> = [
@@ -44,9 +44,9 @@ const routes: Array<RouteRecordRaw> = [
       contentMainTitle: 'PLAN',
     }
   },{
-    path: '/euipment',
-    name: 'euipment',
-    component: EuipmentView,
+    path: '/equipment',
+    name: 'equipment',
+    component: EquipmentView,
     meta: {
       title: '設備・仕様 | 住協グループの住まい情報',
       meta: '設備・仕様ページの説明文が入ります。',
